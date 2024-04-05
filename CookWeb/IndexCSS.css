@@ -1,0 +1,20 @@
+  html {
+    scroll-behavior: smooth;
+  }
+  body{
+    background-color: white;
+  }
+  .highlighted {
+    background-color: yellow;
+}
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px; /* Adjust margin from the top */
+}
+
+.card {
+  margin: 10px;
+}

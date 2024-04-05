@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>
+    <title>CookWeb</title>
+    <link rel="stylesheet"href="IndexCSS.css">
+    
+</head>
+<body>
+    <div class="sticky-top">
+    <nav class="navbar navbar-expand-lg" style="background-color: rgb(9, 188, 194);">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">WebCook</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+              <a class="nav-link active" href="#">Home</a>
+              <a class="nav-link active" href="#Services">About</a>
+              <a class="nav-link active" href="#Contact">Contact</a>
+            </div>
+          </div>
+        </div>
+      </nav>
+      </div>
+
+      <div class="h-70 " id="carousel" >
+      <div class="w-auto">
+      <div id="carouselExampleCaptions" class="carousel slide" style="padding-bottom: 10px;" data-bs-ride="carousel" id="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner" >
+          <div class="carousel-item active" data-bs-interval="5000">
+            <img src="Img/Carousel1.jpg" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Learn The Kitchen</h5>
+              <p>WebCook teaches you all about your kitchen and how you can bring out its full potential .</p>
+            </div>
+          </div>
+          <div class="carousel-item" data-bs-interval="10000">
+            <img src="Img/Carousel2.webp" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Make Cooking Look Easy</h5>
+              <p>WebCook's simple and easy-to-understand recipes make cooking a walk in the park .</p>
+            </div>
+          </div>
+          <div class="carousel-item" data-bs-interval="10000">
+            <img src="Img/Carousel3.webp" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Enjoy the Results</h5>
+              <p>Enjoy your new learned skill and bless your taste buds with your own hands !</p>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+      </div>
+      </div>
+
+      <div class="container text-center" style="border: 1px solid; background: aliceblue; height: fit-content;max-width: 100%;">
+        <h1 id="Services"> </h1>
+        <div class="row">
+          <div class="col-md-4">
+            <img src="Img/recipe-book.png" height="70" width="70">
+            <br>
+           <h1>Quick And Easy</h1>
+           <br>
+           <p>WebCooks Library of recipes is filled to the brim with simple and quick meals and desserts .</p>
+          </div>
+          <div class="col-md-4">
+            <img src="Img/hat-chef.png" height="70" width="70">
+            <br>
+           <h1>Cook Like A Chef</h1>
+           <br>
+           <p>WebCook will teach you all you need to know, from basic to advanced, in order to make you an expert cook .</p>
+          </div>
+          <div class="col-md-4">
+            <img src="Img/plate-utensils.png" height="70" width="70">
+            <br>
+           <h1>Enjoy The Food</h1>
+           <br>
+           <p>No food tastes better than a meal made by your two hands, and WebCook knows this very well .</p>
+          </div>
+        </div>
+        <br>
+      </div>
+      <img src="Img/Img1.svg" width="1519px">
+      <div class="container" style="border: 1px solid;background: aliceblue;min-height: 100vh;max-width: 100%;">
+        <br>
+        <div class="row">
+          
+          <div class="col"></div>
+          <div class="col">
+            <form id="searchForm" class="d-flex">
+              <input class="form-control me-2" type="search" id="searchInput" placeholder="Search..." aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Search</button>
+          </form>
+          <div id="searchResults" class="mt-3"></div>
+        </div>
+          <div class="col"></div>
+        </div>
+        <div class="row" id="Recipes">
+          <br>
+          <div class="col-md-4">
+            <br>
+            <div class="card" id="AirFriedRottesrie" style="width: 18rem;">
+              <img src="Img/Chicken.jpg" class="card-img-top img-fluid" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Air Fried Rotisserie Chicken</h5>
+                <p class="card-text">Rotisserie Chicken is the best protein to have on hand during your busy week. It also makes for an incredibly easy dinner! Break out your air fryer and prepare to have your mind blown.<br><br><br><br></p>
+                <a href="#ChickenCanvas" data-bs-toggle="offcanvas" class="btn" role="button" style="background-color: rgb(9, 188, 194);">Cook</a>
+              </div>
+            </div>
+
+            <div class="offcanvas offcanvas-start" tabindex="-1" id="ChickenCanvas" aria-labelledby="offcanvasLabel">
+              <div class="offcanvas-header">
+                <h4 class="offcanvas-title" id="offcanvasLabel">Air Fried Rotisserie Chicken</h4>
+                <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+              </div>
+              <div class="offcanvas-body">
+                <h5>What you’ll need to make this Healthy Air Fried Rotisserie Chicken</h5>
+                <br>
+                <ul class="list-group">
+                  <li class="list-group-item">Whole Chicken (approx. 3-4 lbs)</li>
+                  <li class="list-group-item">Lemon</li>
+                  <li class="list-group-item">Onion Powder</li>
+                  <li class="list-group-item">Garlic powder</li>
+                  <li class="list-group-item">Paprika</li>
+                  <li class="list-group-item">Kosher salt</li>
+                  <li class="list-group-item">Olive oil spray or Avocado oil spray</li>
+                  <li class="list-group-item">Equipment: Air fryer; 7 qt basket or larger</li>
+                </ul>
+                <br>
+                <h5>How to make this Healthy Air Fried Rotisserie Chicken</h5>
+                <br>
+                <p>Start by cleaning out the cavity of the chicken. Half one lemon and place it inside the cavity of the chicken.
+                  <br>
+                  Spray the entire chicken with olive oil or avocado oil spray. Combine the spices and sprinkle them evenly to coat the chicken.
+                  <br>
+                  Place your chicken in the basket of the air fryer. Air fry at 350F for 45-60 minutes. Make sure to flip halfway. The internal temperature of the breast meat should be 165F. 
+                  
+                  </p>
+              </div>
+            </div>
+            <br>
+          </div>
+
+
+          <div class="col-md-4">
+            <br>
+            <div class="card" style="width: 18rem;">
+              <img src="Img/Shrimp.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Air Fried Coconut Shrimp</h5>
+                <p class="card-text">Sweet, savory, crunchy and crispy; air fried coconut shrimp has it all.  Dipped in sweet and sour sauce, this lightened-up version of the greasy restaurant staple is a great alternative for those who want all the flavor and experience of coconut shrimp without all the added calories.</p>
+                <a href="#ShrimpCanvas" data-bs-toggle="offcanvas" class="btn" role="button" style="background-color: rgb(9, 188, 194);">Cook</a>
+              </div>
+            </div>
+
+            <div class="offcanvas offcanvas-start" tabindex="-1" id="ShrimpCanvas" aria-labelledby="offcanvasLabel">
+              <div class="offcanvas-header">
+                <h4 class="offcanvas-title" id="offcanvasLabel">Air Fried Coconut Shrimp</h4>
+                <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+              </div>
+              <div class="offcanvas-body">
+                <h5>What you’ll need to make Coconut Shrimp</h5>
+                <br>
+                <ul class="list-group">
+                  <li class="list-group-item">Shrimp</li>
+                  <li class="list-group-item">Flour</li>
+                  <li class="list-group-item">Egg Whites</li>
+                  <li class="list-group-item">Panko Breadcrumbs</li>
+                  <li class="list-group-item">Sweetened shredded coconut</li>
+                  <li class="list-group-item">Kosher</li>
+                  <li class="list-group-item">Cooking Spray</li>
+                  <li class="list-group-item">Kosher salt</li>
+                  <li class="list-group-item">Scallions (optional) for garnish</li>
+                </ul>
+                <br>
+                <h5>How To Prep and Cook the Shrimp</h5>
+                <br>
+                <p>Don’t be intimidated by cooking with shrimp if you’ve never done it before.  It’s so easy, I promise.  The hardest part is cleaning and prepping it, so I’ll explain that below.
+                  <br>
+                  You can buy either fresh shrimp or frozen.  If I can get to the fish counter at the store, I prefer to do that, but I always have a bag of frozen shrimp in the freezer for when I am in a pinch. For this recipe, I like to use jumbo shrimp; you’ll see them sold as 16/20, which means that you’ll get anywhere from 16-20 shrimp per pound.  This is how the shrimp size is measured.
+                  <br>
+                  Regardless of whether you buy fresh or frozen shrimp, they will need to be prepared before cooking. Even if shrimp is sold as “cleaned and deveined,” typically one of the two veins in the shrimp will be left in-tact.  It is personal preference whether you want to remove this second vein or not; for me, I prefer to remove it.
+                  <br>
+For this recipe, I happened to use the Argentinian Red Shrimp from Trader Joe’s.  They are found in the frozen section and are absolutely delicious!  They are sold peeled, deveined, and without tails, so they couldn’t be easier to work with!  And they’re also naturally sweet in flavor.
+                  <br>
+                  </p>
+                  <h5>How to make air fried coconut shrimp</h5>
+                  <p>
+                    This recipe is so easy to make.  First, grab three bowls to make your dredging station.<br>
+                    To bread the shrimp, I work in two batches. I do this for two reasons:<br>
+                    <ol>
+                    <li>The air fryer basket will only fit one batch comfortably enough for them to get crispy without overcrowding.</li>
+                    <li>If you combine all of the panko and coconut at the same time, by the time you get halfway through breading the shrimp, it starts to clump up from the egg.</li>
+                    </ol><br>
+                    To make the dredging station, add the flour to one bowl, the egg whites to another bowl, and finally, half of the panko, half of the coconut, and half of the salt to the third bowl. <em>Here’s how to effectively bread the shrimp:</em><br>
+                    <ul>
+                      <li>Pat the shrimp dry and toss them in the flour. </li>
+                      <li>Then, toss the shrimp in the egg whites.</li>
+                      <li>Lastly, toss the shrimp in the panko and coconut mixture.</li>
+                    </ul><br>
+                    Spray the basket of your air fryer with cooking spray, and then add the shrimp to the basket.  Spray the tops of the shrimp with more cooking spray, and then air fry at 400 for 8-10 minutes, flipping halfway and spraying them again. The shrimp should be golden brown and crispy (note: air fryer cooking times will vary based on brand, so make sure to check on the cooking frequently). Top the shrimp with a sprinkle of extra coconut and some scallions.
+                  </p>
+              </div>
+            </div>
+            
+            <br>
+
+          </div>
+          <div class="col-md-4">
+            <br>
+            <div class="card" style="width: 18rem;">
+              <img src="Img/BaconRanch.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Lightened-Up Chicken Bacon Ranch Dip</h5>
+                <p class="card-text">This lightened-up chicken bacon ranch dip is so delicious, it does not taste lightened-up whatsoever. Whether you are serving this as an appetizer for a crowd or making it for meal prep, this one is sure to please.<br><br></p>
+                <a href="#ShrimpCanvas2" data-bs-toggle="offcanvas" class="btn" role="button" style="background-color: rgb(9, 188, 194);">Cook</a>
+              </div>
+            </div>
+
+            <div class="offcanvas offcanvas-start" tabindex="-1" id="ShrimpCanvas2" aria-labelledby="offcanvasLabel2">
+              <div class="offcanvas-header">
+                <h4 class="offcanvas-title" id="offcanvasLabel2">Air Fried Coconut Shrimp</h4>
+                <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+              </div>
+              <div class="offcanvas-body">
+                <h5>What you’ll need to make this lightened-up chicken bacon ranch dip?</h5>
+                <br>
+                <ul class="list-group">
+                  <li class="list-group-item">Chicken breast</li>
+                  <li class="list-group-item">Center cut bacon</li>
+                  <li class="list-group-item">Plain non-fat Greek yogurt</li>
+                  <li class="list-group-item">Reduced fat cream cheese</li>
+                  <li class="list-group-item">Fat free cheddar cheese</li>
+                  <li class="list-group-item">Powdered ranch seasoning</li>
+                  <li class="list-group-item">Scallions</li>
+                </ul>
+                <br>
+                <h5>How to make this lightened-up chicken bacon ranch dip</h5>
+                <br>
+                <p>Start by preheating the oven to 400F.  Line a baking sheet with parchment paper and add olive oil spray.  Add the chicken breasts to the sheet pan, and spray with more olive oil spray; season with salt and pepper.  On the other side of the sheet pan, add the six slices of bacon. Roast the chicken and bacon at 400F for a total of 30 minutes (after 20 minutes, remove the cooked bacon from the oven and set aside) and then return the chicken to the oven for the remaining 10 minutes. The chicken should be cooked to 165F, and the bacon should be cooked and crispy. 
+                  <br>
+                  While the chicken and bacon cools, prepare the dressing.  Add the yogurt, cream cheese, ranch seasoning, and 1 cup of the cheddar to a mixing bowl, as well as half the chopped scallions. Reserve the remaining 1/2 cup cheddar and scallions for later. 
+                  <br>
+                  Add the shredded chicken to the mixing bowl and crumble 4 slices of the bacon into the bowl.  Reserve the remaining 2 pieces of crumbled bacon. Combine the ingredients and then pour it into a baking dish.  Top with the remaining cheese.  Reduce the oven temperature to 350F, and cook the mixture for 20 minutes.  Garnish with the remaining scallions and crumbled bacon. 
+                  <br>
+                  </p>
+              </div>
+            </div>
+            
+            <br>
+
+          </div>
+
+      </div>
+      </div>
+      </div>
+
+      <div class="container text-center" style="border: 1px solid;background: aliceblue;max-width: 100%;height: fit-content;">
+        <br>
+        <div class="row" id="Contact">
+          <h1>Contact Us</h1>
+          <br>
+          <div class="col">
+            <br>
+            <img src="Img/email.png" height="70" width="70">
+            <br>
+           <p>CookWeb@gmail.com</p>
+          </div>
+          <div class="col">
+            <br>
+            <img src="Img/youtube.png" height="70" width="70">
+            <br>
+           <p>WebCook Official</p>
+          </div>
+          <div class="col">
+            <br>
+            <img src="Img/twitter.png" height="70" width="70">
+            <br>
+           <p>@webcookreal</p>
+          </div>
+        </div>
+        <br>
+      </div>
+      <script src="IndexJS.js"></script>
+</body>
+</html>
